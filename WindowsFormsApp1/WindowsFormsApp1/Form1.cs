@@ -17,9 +17,14 @@ namespace WindowsFormsApp1
             InitializeComponent();
         }
 
-        private void button1_Click(object sender, EventArgs e)
+        private void Escrever()
         {
             MessageBox.Show("Usando o GitHub com o VS 2017 no dia 04/03");
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            Escrever();
         }
     }
 }
